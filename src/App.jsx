@@ -1,13 +1,12 @@
 
 import './App.css'
+import Navbar from './my_components/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-
-      <h1 className=' bg-red-200'>Vite + React</h1>
-
+    <Navbar></Navbar>
     </>
   )
 }
